@@ -1,5 +1,5 @@
 # Kalculator
-Калькулятор
+
 n1 = float(input())
 a = input()
 n2 = float(input())
