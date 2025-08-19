@@ -1,0 +1,19 @@
+# Kalculator
+Калькулятор
+n1 = float(input())
+a = input()
+n2 = float(input())
+if a == "+":
+    result = n1 + n2
+elif a == "-":
+    result = n1 - n2
+elif a == "*":
+    result = n1 * n2
+elif a == "/":
+    if n2 != 0:
+        result = n1 / n2
+    else:
+        result = "Ошибка: деление на ноль"
+else:
+    result = ('Некорректный оператор')
+print("Результат:", result)
